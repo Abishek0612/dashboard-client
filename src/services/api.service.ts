@@ -9,6 +9,14 @@ import {
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || "";
 
+interface ImportMetaEnv {
+  readonly VITE_API_URL: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
+
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
