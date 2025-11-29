@@ -7,7 +7,14 @@ import {
   AggregatedData,
 } from "../types";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "";
+const getApiUrl = () => {
+  if (typeof import.meta !== "undefined" && import.meta.env) {
+    return import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  }
+  return "http://localhost:5000/api";
+};
+
+const API_BASE_URL = getApiUrl();
 
 const api = axios.create({
   baseURL: API_BASE_URL,
