@@ -50,8 +50,12 @@ A running backend API instance
 
 Clone the repository and navigate to the frontend directory:
 cd my-app
-git clone
+git clone https://github.com/Abishek0612/dashboard-client.git
 npm install
+
+# Start the server
+
+npm run dev
 
 ```
 
