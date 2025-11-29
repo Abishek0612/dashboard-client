@@ -1,0 +1,63 @@
+# Blackcoffer Analytics - Frontend Dashboard
+
+A modern, interactive data visualization dashboard built with React, TypeScript, and D3.js. This application provides comprehensive analytics and insights through beautiful, responsive charts and visualizations.
+
+#Overview
+The Blackcoffer Analytics Dashboard is a sophisticated data visualization platform that transforms complex datasets into actionable insights. It features interactive charts, dynamic filtering, real-time data updates, and a responsive design that works seamlessly across all devices.
+
+# Key Features
+
+The dashboard offers a comprehensive suite of features designed for data analysis:
+Interactive Visualizations
+The application includes eight different chart types, each designed for specific data analysis needs. These include gauge charts for intensity metrics, distribution histograms for likelihood analysis, bar charts for sector comparisons, pie charts for regional distribution, bubble charts for topic analysis, line charts for trend analysis, and grouped bar charts for PESTLE analysis.
+
+# Advanced Filtering System
+
+Users can filter data across multiple dimensions including year, topic, sector, region, PESTLE categories, source, country, and city. The filtering system is intuitive and provides instant feedback with active filter counts and easy reset functionality.
+Responsive Design
+The dashboard is fully responsive and works perfectly on all devices. It features a mobile-first approach with a hamburger menu for mobile devices, adaptive layouts that adjust to screen size, touch-optimized controls, and optimized chart rendering for different screen sizes.
+Theme Support
+Users can switch between dark and light modes according to their preference. The application remembers user preferences and provides theme-aware color schemes throughout all visualizations.
+Data Export
+The dashboard supports multiple export formats including CSV for spreadsheet analysis, JSON for data processing, and PDF generation capability for reports.
+Technology Stack
+The frontend leverages modern web technologies:
+
+# React 18 - UI library with hooks
+
+# TypeScript - Type-safe JavaScript
+
+# Vite - Fast build tool and dev server
+
+# D3.js - Data visualization library
+
+# Tailwind CSS - Utility-first CSS framework
+
+# Framer Motion - Animation library
+
+# Axios - HTTP client
+
+# React Select - Advanced select component
+
+Prerequisites
+Before starting, ensure you have:
+
+Node.js version 16 or higher
+npm version 7 or higher
+A running backend API instance
+
+# Installation
+
+Clone the repository and navigate to the frontend directory:
+cd my-app
+git clone
+npm install
+
+```
+
+### Configuration
+
+Create a `.env` file in the frontend root directory:
+```
+
+VITE_API_URL=http://localhost:5000/api
